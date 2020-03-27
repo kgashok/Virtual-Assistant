@@ -8,7 +8,7 @@ RUN sudo apt-get update \
  && sudo apt-get install -y \
   libjson-c-dev \
  && sudo apt-get install -y \
-  libssl0.9.8 \
+  libssl1.0.0 \
  && sudo rm -rf /var/lib/apt/lists/*
-
+ 
  
